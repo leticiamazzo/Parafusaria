@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; 
+  box-sizing: border-box; 
+}
+
+html {
+  box-sizing: border-box;
+  margin: 20px;
+
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.group {
+  margin-top: 20px;  
+}
+
+.select {
+  margin-top: 5px;
+}
+
+.schedule { 
+  margin-top: 20px;  
+  height: min-content;
+}
+
+@media (min-width: 600px) { 
+  .line {
+    display: flex;
+  }
+  
+  .group {
+    margin-right: 20px;
+  }
+}
